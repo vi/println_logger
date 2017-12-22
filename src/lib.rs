@@ -3,7 +3,7 @@
 extern crate log;
 
 
-/// A tribvial logger to use before you embrace the actual env_logger.
+/// A trivial logger to use before you embrace the actual env_logger.
 /// Turns `info!`, `warn!` and `error!` into `println!`.
 pub struct PrintlnLogger;
 impl log::Log for PrintlnLogger {
