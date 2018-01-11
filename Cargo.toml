@@ -1,10 +1,10 @@
 [package]
 name = "println_logger"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Vitaly _Vi Shukela <vi0oss@gmail.com>"]
 description = "Rename your println!-s to info!-s and call it a day"
 repository = "https://github.com/vi/println_logger"
 license = "MIT/Apache-2.0"
 
 [dependencies]
-log="0.3"
+log="0.4"
